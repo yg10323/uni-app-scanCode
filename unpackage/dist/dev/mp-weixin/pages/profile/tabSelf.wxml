@@ -1,0 +1,1 @@
+<view class="self"><block wx:if="{{!isLogin}}"><view class="default-info"><text>这里显示用户 未登录时 的一些东西</text></view></block><block wx:else><view class="login-info"><text>{{$root.g0}}</text><button class="scan-code" type="primary" data-event-opts="{{[['tap',[['scanCode',['$event']]]]]}}" bindtap="__e">扫码登录</button><text>{{"token: "+data}}</text></view></block></view>

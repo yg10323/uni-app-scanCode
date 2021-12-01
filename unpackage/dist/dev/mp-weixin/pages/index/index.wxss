@@ -1,0 +1,14 @@
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.wrap {
+	margin-top: 10%;
+}
+.un-login,.has-login {
+	margin-bottom: 20px;
+}
+

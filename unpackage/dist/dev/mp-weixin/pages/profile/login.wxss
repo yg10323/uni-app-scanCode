@@ -1,0 +1,73 @@
+
+view {
+		display: flex;
+}
+.loginView {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		width: 750rpx;
+		padding-top: 30rpx;
+}
+.input-view {
+		border-bottom-style: solid;
+		border-bottom-width: 3rpx;
+		border-bottom-color: #ddd;
+		background-color: #fff;
+		flex-direction: row;
+		width: 750rpx;
+		padding: 20rpx 20rpx;
+		box-sizing: border-box;
+}
+.label-view {
+		width: 100rpx;
+		height: 60rpx;
+		align-items: center;
+		margin-right: 30rpx;
+}
+.label {
+		flex: 1;
+		line-height: 60rpx;
+		font-size: 34rpx;
+		color: #555;
+		text-align: left;
+}
+.input {
+		flex: 1;
+		height: 60rpx;
+		font-size: 34rpx;
+		align-items: center;
+}
+.button-view {
+		width: 750rpx;
+		margin-top: 50rpx;
+		padding: 0 20rpx;
+		box-sizing: border-box;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+button {
+		width: 710rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		text-align: center;
+		font-size: 34rpx;
+		margin-bottom: 30rpx;
+}
+button.register {
+		margin-top: 30rpx;
+		color: #ff80ab;
+		background-color: #fff;
+		border-color: #ff80ab;
+		border-width: 2rpx;
+}
+
+	/* .register.hover,
+    .login.hover {
+        opacity: 0.6;
+    } */
+.getPassword {
+		color: #888888;
+}
+
